@@ -1,0 +1,100 @@
+/* Importation des polices Google Fonts 'Poppins' et 'Montserrat' */
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+/* Mise en forme du corps du document */
+body {
+  /* Définition de la police de caractères */
+  font-family: 'Poppins', sans-serif;
+  /* Marge nulle */
+  margin: 0px;
+  /* Couleur de fond gris clair */
+  background-color: rgb(207, 207, 207);
+}
+
+/* Mise en forme du contenu */
+#content {
+  /* Padding de 10 pixels */
+  padding: 10px;
+  /* Padding de 35 pixels à gauche */
+  padding-left: 35px;
+}
+
+/* Mise en forme du titre */
+#intro {
+  /* Police de caractères Arial */
+  font-family: Arial;
+  /* Taille de police de 2em */
+  font-size: 2em;
+  /* Alignement centré */
+  text-align: center;
+}
+
+/* Mise en forme du résumé */
+#res {
+  /* Padding de 2em à gauche */
+  padding-left: 2em;
+}
+
+/* Mise en forme de l'affiche */
+#afF {
+  /* Flottement à droite */
+  float: right;
+  /* Marge de 20 pixels */
+  margin: 20px;
+  /* Marge de 50 pixels à droite */
+  margin-right: 50px;
+}
+
+/* Mise en forme des citations */
+q {
+  /* Police en italique */
+  font-style: italic;
+}
+
+/* Mise en forme de la guillemet ouvrant */
+q:before {
+  /* Contenu de la guillemet ouvrant */
+  content: open-quote
+}
+/* Mise en forme de la guillemet fermante */
+q:after {
+  /* Contenu de la guillemet fermante */
+  content: close-quote;
+  /* Padding de 10 pixels à gauche */
+  padding-left: 10px;
+}
+
+/* Mise en forme de la vidéo */
+iframe {
+  /* Alignement à gauche */
+  text-align: left;
+}
+
+/* Mise en forme des images des acteurs */
+#imgActors {
+  /* Affichage en ligne */
+  display: flex;
+}
+
+/* Mise en forme des images des acteurs */
+#imgActors img {
+  /* Hauteur de 226 pixels */
+  height: 226px;
+  /* Largeur de 314 pixels */
+  width: 314px;
+  /* Ajustement de l'objet à son conteneur */
+  object-fit: contain;
+}
+
+/* Mise en forme de la section de contenu */
+#contentS {
+  /* Affichage en ligne */
+  display: flex;
+  /* Alignement des éléments verticaux au centre */
+  align-items: center;
+  /* Justification du contenu au centre */
+  justify-content: center;
+/* Hauteur de la section de contenu égale à la hauteur de la vue */
+height: 100vh;
+}
